@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TodoList"
+             x:Class="TodoList.MainPage">
+    <StackLayout>
+        <Label Text="login"
+                    HorizontalOptions="Start" />
+        <Entry x:Name="login" />
+        <Label Text="password" 
+                    HorizontalOptions="Start" />
+        <Entry x:Name="passwd" />
+        <Label Text=""
+                x:Name="alertText"
+                HorizontalOptions="Center" />
+        <Button Text="Se connecter"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                Clicked="OnButtonClicked"/>
+    </StackLayout>
+</ContentPage>

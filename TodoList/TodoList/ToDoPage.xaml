@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoList.ToDoPage"
+             Title="ToDoList">
+  <!--Pages can be added as references or inline-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Ajouter" Clicked="GoAjoutPage"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage Title="Ma Liste"
+                 x:Class="TodoList.MyList">
+        <ListView x:Name="MyListView"
+           IsPullToRefreshEnabled="True"
+           Refreshing="Apiclicked"
+           VerticalOptions="FillAndExpand" 
+           HasUnevenRows="True"
+           ItemsSource="{Binding listItems}"
+           >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding text}" LineBreakMode="NoWrap" FontSize="16" />
+                            <Label Text="{Binding description}"  LineBreakMode="NoWrap" FontSize="10"/>
+                            <Image Source="checked.png" HeightRequest="16" WidthRequest="16" IsVisible="{Binding isDone}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </ContentPage>
+    <ContentPage Title="A Propos De">
+        <StackLayout VerticalOptions="Center">
+            <Image Source="logo.png"/>
+            <Label x:Name="appname"
+               Text="TodoList"
+               HorizontalOptions="Center"
+               />
+            <Label x:Name="version"
+               Text="version: 1.0"
+               HorizontalOptions="Center" />
+            <Label x:Name="author"
+               Text="Guillaume GIROUX"
+               HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

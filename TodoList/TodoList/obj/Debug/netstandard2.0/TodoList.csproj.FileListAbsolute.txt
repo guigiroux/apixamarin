@@ -1,0 +1,17 @@
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\bin\Debug\netstandard2.0\TodoList.deps.json
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\bin\Debug\netstandard2.0\TodoList.dll
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\bin\Debug\netstandard2.0\TodoList.pdb
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.csprojResolveAssemblyReference.cache
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.csproj.CoreCompileInputs.cache
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.App.xaml.g.cs
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.MainPage.xaml.g.cs
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.AssemblyInfoInputs.cache
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.AssemblyInfo.cs
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.dll
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.pdb
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.ToDoPage.xaml.g.cs
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.csproj.CopyComplete
+C:\Users\guigi\source\repos\TodoList\TodoList\TodoList\obj\Debug\netstandard2.0\TodoList.AjoutPage.xaml.g.cs

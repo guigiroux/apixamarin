@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoList.AjoutPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Text"
+                HorizontalOptions="Start" />
+            <Entry x:Name="textInput"/>
+            <Label Text="Description"
+                HorizontalOptions="Start" />
+            <Entry x:Name="descInput" />
+            <Label Text="Pour le" 
+                HorizontalOptions="Start" />
+            <Entry x:Name="dateInput" />
+            <Button Text="Valider" Clicked="validate"/>
+            <Label Text=""
+                x:Name="alertText"
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
